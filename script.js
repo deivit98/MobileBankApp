@@ -228,7 +228,6 @@ let a = 10;
 console.log(++a);
 console.log(a);
 
-// 3.
 const { deposits, withdrawals } = accounts
   .flatMap(acc => acc.movements)
   .reduce(
